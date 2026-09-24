@@ -1,0 +1,25 @@
+# Environment and secrets
+.env
+.env.*
+
+# Database backup mappings and exports (keep private)
+*.csv
+stream_icon_backup*.csv
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
